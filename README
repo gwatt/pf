@@ -1,0 +1,2 @@
+Character manager for pathfinder written in common lisp.
+Only testedwith sbcl.
