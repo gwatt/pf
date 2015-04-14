@@ -34,7 +34,7 @@
       :escape-artist :intimidate :knowledge :linguistics :perception
       :sense-motive :sleight-of-hand :spellcraft :stealth :use-magic-device))
   (def-class :cavalier 10 1 #'good #'bad #'bad 4
-    '(:bluff :climb :craft :displomacy :handle-animal :intimdate :profession
+    '(:bluff :climb :craft :diplomacy :handle-animal :intimdate :profession
       :ride :sense-motive :swim))
   (def-class :cleric 8 3/4 #'good #'bad #'good 2
     '(:appraise :craft :diplomacy :heal :knowledge[arcana] 
@@ -58,12 +58,13 @@
       :knowledge[planes] :knowledge[religion] :perception :profession
       :ride :sense-motive :spellcraft :stealth :survival :swim))
   (def-class :magus 8 3/4 #'good #'bad #'good 2
-    '(:climb :craft :fly :intimidate :arcana :dungeoneering :planes
-      :profession :ride :spellcraft :swim :use-magic-device))
+    '(:climb :craft :fly :intimidate :knowledge[arcana]
+      :knowledge[dungeoneering] :knoeldge[planes] :profession :ride
+      :spellcraft :swim :use-magic-device))
   (def-class :monk 8 3/4 #'good #'good #'good 4
-    '(:acrobatics :climb :craft :escape-artist :intimidate :history
-      :religion :perception :perform :profession :ride :sense-motive
-      :stealth :swim))
+    '(:acrobatics :climb :craft :escape-artist :intimidate :knoeldge[history]
+      :knowledge[religion] :perception :perform :profession :ride
+      :sense-motive :stealth :swim))
   (def-class :oracle 8 3/4 #'bad #'bad #'good 4
     '(:craft :diplomacy :heal :knowledge[history] :knowledge[planes]
       :knowledge[religion] :profession :sense-motive :spellcraft))
